@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.qa.crm.ExtentReports.TestListener"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/hchauha1/IdeaProjects/freeCRM_Automation_Framework">
+        <classes>
+            <class name="com.qa.crm.testSuite.ContactsPageTest"><methods><include name="selectCheckboxByContactName"/></methods></class>
+            <class name="com.qa.crm.testSuite.HomePageTest"><methods><include name="verifyUserNameOnHomePageTest"/><include name="contactDisplayedTest"/></methods></class>
+            <class name="com.qa.crm.testSuite.LoginTest"><methods><include name="loginPageTitle"/><include name="ValidateLogoDisplyed"/><include name="login"/></methods></class></classes>
+    </test>
+</suite>
