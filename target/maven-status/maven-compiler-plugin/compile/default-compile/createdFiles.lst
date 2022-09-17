@@ -1,0 +1,12 @@
+com\qa\crm\ExtentReports\TestListener.class
+com\qa\crm\pages\ContactsPage.class
+com\qa\crm\Utility\TestUtils.class
+com\qa\crm\Utility\WebEventListner.class
+com\qa\crm\Utility\GlobalVariables.class
+com\qa\crm\Utility\WebdDriverWaitMethod.class
+com\qa\crm\base\TestBase.class
+com\qa\crm\ExtentReports\ExtentManager.class
+com\qa\crm\ExtentReports\ExtentTestManager.class
+com\qa\crm\pages\HomePage.class
+com\qa\crm\Utility\ObjectsActions.class
+com\qa\crm\pages\LoginPage.class
